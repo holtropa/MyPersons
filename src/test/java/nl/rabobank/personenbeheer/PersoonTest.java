@@ -15,10 +15,10 @@ public class PersoonTest {
         persoon.setAchterNaam("Anne");
         persoon.setGeboorteDat(1965, 12, 12);
         PersoonInvoer invoer = new PersoonInvoer();
-        Persoon vindPersoon = invoer.addPersoon(persoon);//
+        Persoon vindPersoon = invoer.addPersoon(persoon);
         vindPersoon.compareTo(persoon);
 
-     ///   assertThat(vindPersoon).isNotNull();
+        assertThat(vindPersoon).isNotNull();
     }
 
     @Test
