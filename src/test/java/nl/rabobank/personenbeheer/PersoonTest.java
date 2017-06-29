@@ -29,8 +29,6 @@ public class PersoonTest {
         PersoonInvoer.personen.add(persoon2);
         Persoon persoon3 = new Persoon("Henk", LocalDate.of(1965, 12, 12));
         PersoonInvoer.personen.add(persoon3);
-        //
-
         PersoonInvoer.sortByAchterNaamAscending(PersoonInvoer.personen);
 
         assertThat(PersoonInvoer.personen.get(0).getAchterNaam().contains("Anne"));
