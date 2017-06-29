@@ -18,7 +18,7 @@ public class PersoonTest {
         Persoon vindPersoon = invoer.addPersoon(persoon);//
         vindPersoon.compareTo(persoon);
 
-     //   assertThat(vindPersoon).isNotNull();
+     ///   assertThat(vindPersoon).isNotNull();
     }
 
     @Test
