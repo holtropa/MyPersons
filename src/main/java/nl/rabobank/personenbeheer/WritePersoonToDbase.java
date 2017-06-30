@@ -9,8 +9,6 @@ public class WritePersoonToDbase {
 
 
     private static final String INSERT_PERSOON_SQL = "INSERT INTO XZA_MYPERSOON (ID) VALUES (?)";
-    public static final String METHOD_TO_GET_NATIVE_CONNECTION = "getInnermostDelegate";
-
 
     public long storePersoon(final Persoon persoon) {
         final int id = 0;
