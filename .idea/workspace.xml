@@ -4,7 +4,6 @@
     <list default="true" id="00d49d67-d30e-4126-bb3e-8542bdfb23a6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/PersoonTest.class" afterPath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/PersoonTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/nl/rabobank/personenbeheer/PersoonTest.java" afterPath="$PROJECT_DIR$/src/test/java/nl/rabobank/personenbeheer/PersoonTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -740,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498829800834</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test">
+      <created>1498830029381</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498830029381</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
