@@ -34,5 +34,16 @@ public class PersoonTest {
         assertThat(PersoonInvoer.personen.get(0).getAchterNaam().contains("Anne"));
         assertEquals(1,PersoonInvoer.personen.get(0).getId());
     }
+
+    @Test
+    public void write_a_person_to_dbase() {
+     //   OracleJDBC myJDBC = new OracleJDBC();
+        WritePersoonToDbase writePersoonToDbase = new WritePersoonToDbase();
+        Persoon persoon = new Persoon("Piet", LocalDate.of(1965, 12, 12));
+        PersoonInvoer.personen.add(persoon);
+        writePersoonToDbase.storePersoon(persoon);
+
+    }
+
 }
 
