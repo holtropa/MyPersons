@@ -43,6 +43,8 @@ public class PersoonTest {
         PersoonInvoer.personen.add(persoon);
         writePersoonToDbase.storePersoon(persoon);
 
+        assertEquals(0,PersoonInvoer.personen.get(0).getId());
+
     }
 
 }
