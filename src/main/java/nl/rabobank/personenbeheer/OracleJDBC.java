@@ -6,19 +6,19 @@ import java.sql.SQLException;
 
 public class OracleJDBC {
 
-public static void main(String[] argv) {
+    public static void main(String[] argv) {
 
         System.out.println("-------- Oracle JDBC Connection Testing ------");
 
         try {
 
-        Class.forName("oracle.jdbc.driver.OracleDriver");
+            Class.forName("oracle.jdbc.driver.OracleDriver");
 
         } catch (ClassNotFoundException e) {
 
-        System.out.println("Where is your Oracle JDBC Driver?");
-        e.printStackTrace();
-        return;
+            System.out.println("Where is your Oracle JDBC Driver?");
+            e.printStackTrace();
+            return;
 
         }
 
@@ -28,22 +28,22 @@ public static void main(String[] argv) {
 
         try {
 
-        connection = DriverManager.getConnection(
-        "jdbc:oracle:thin:@localhost:1521:xe", "holtropa", "holtropia");
+            connection = DriverManager.getConnection(
+                    "jdbc:oracle:thin:@localhost:1521:xe", "holtropa", "holtropia");
 
         } catch (SQLException e) {
 
-        System.out.println("Connection Failed! Check output console");
-        e.printStackTrace();
-        return;
+            System.out.println("Connection Failed! Check output console");
+            e.printStackTrace();
+            return;
 
         }
 
         if (connection != null) {
-        System.out.println("You made it, take control your database now!");
+            System.out.println("You made it, take control your database now!");
         } else {
-        System.out.println("Failed to make connection!");
+            System.out.println("Failed to make connection!");
         }
-        }
+    }
 
-        }waarde > 9900 "service=https://distributie.services.rabobank.nl/verkoop/GetOpportunity" | timechart values(rPerfwaarde) by service
+}
