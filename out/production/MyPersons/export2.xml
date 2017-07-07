@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <XZA_PERSOON ID="1" NAME="Anne"/>
+    <XZA_PERSOON ID="2" NAME="Piet"/>
+    <XZA_PERSOON ID="3" NAME="Henk"/>
+    <XZA_PERSOON ID="4" NAME="Klaas"/>
+</dataset>

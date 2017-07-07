@@ -35,7 +35,7 @@ public class IntegratieTest extends DBTestCase {
 
     protected IDataSet getDataSet() throws Exception {
 
-        File file = new File(getClass().getClassLoader().getResource("export.xml").getFile());
+        File file = new File(getClass().getClassLoader().getResource("export2.xml").getFile());
         return new FlatXmlDataSetBuilder().build(new FileInputStream(file));
 
     }
