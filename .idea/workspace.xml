@@ -2,21 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00d49d67-d30e-4126-bb3e-8542bdfb23a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/DaoPatternDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/FirstDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/GenericDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/H2MemoryDatabase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/OracleJDBC.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/Persoon.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/PersoonDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/PersoonDaoImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/PersoonInvoer$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/PersoonInvoer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/WritePersoonToDbase.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/IntegratieTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/database.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/export.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/PersoonTest.class" afterPath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/PersoonTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -864,7 +849,21 @@
       <option name="project" value="LOCAL" />
       <updated>1499417772866</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="test">
+      <created>1499417817186</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1499417817186</updated>
+    </task>
+    <task id="LOCAL-00017" summary="test">
+      <created>1499417930997</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1499417930997</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -963,6 +962,24 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
