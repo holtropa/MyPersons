@@ -14,27 +14,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/PersoonInvoer.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/nl/rabobank/personenbeheer/WritePersoonToDbase.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/IntegratieTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample.lck" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/resources.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/database.properties" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/MyPersons/export.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sample.script" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/H2MemoryDatabase.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/export.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nl/rabobank/personenbeheer/IntegratieTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/PersoonTest.class" afterPath="$PROJECT_DIR$/out/test/MyPersons/nl/rabobank/personenbeheer/PersoonTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MyPersons.iml" afterPath="$PROJECT_DIR$/MyPersons.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/Persoon.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/Persoon.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/PersoonDao.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/PersoonDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/PersoonDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/PersoonDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/PersoonInvoer.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/PersoonInvoer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/WritePersoonToDbase.java" afterPath="$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/WritePersoonToDbase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/nl/rabobank/personenbeheer/PersoonTest.java" afterPath="$PROJECT_DIR$/src/test/java/nl/rabobank/personenbeheer/PersoonTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +56,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersoonTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PersoonTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nl/rabobank/personenbeheer/PersoonTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
@@ -117,7 +100,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OracleJDBC.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OracleJDBC.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/OracleJDBC.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
@@ -874,7 +857,14 @@
       <option name="project" value="LOCAL" />
       <updated>1498830798097</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="test">
+      <created>1499417772866</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1499417772866</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1243,6 +1233,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="24" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,6 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,14 +1351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/OracleJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="31" column="84" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/H2MemoryDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1399,6 +1383,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="41" column="1" lean-forward="false" selection-start-line="41" selection-start-column="1" selection-end-line="50" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/rabobank/personenbeheer/OracleJDBC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="31" column="84" lean-forward="false" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="84" />
           <folding />
         </state>
       </provider>
