@@ -53,6 +53,10 @@ public class Persoon implements Comparable {
         return achterNaam;
     }
 
+    public String getPlaatsNaam() {
+        return plaatsNaam;
+    }
+
     public LocalDate getGeboorteDat() {
         return geboorteDat;
     }
@@ -64,6 +68,8 @@ public class Persoon implements Comparable {
     public void setAchterNaam(String naam) {
         this.achterNaam = naam;
     }
+
+    public void setPlaatsNaam(String plaatsNaam) {this.plaatsNaam = plaatsNaam; }
 
     public void setGeboorteDat(int klant_gebjaar, int klant_gebmaand, int klant_gebdag) {
         this.geboorteDat = LocalDate.of(klant_gebjaar, klant_gebmaand, klant_gebdag);

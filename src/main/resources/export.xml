@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+    <XZA_PERSOON ID="1" ACHTERNAAM="Anne" BSNNUMMER="leeg" EMAIL="leeg" GESLACHT="leeg" TELEFOONNUMMER="leeg" TUSSENVOEGSELS="leeg"
+                 VOORLETTERS="leeg" HUISNUMMER="0" HUISNUMMERTOEVOEGING="leeg" LAND="leeg" POSTCODE="leeg" STRAAT="leeg"
+                 WOONPLAATS="leeg" GEBOORTEPLAATS="leeg" GEMEENTE="leeg"/>
+    <XZA_PERSOON ID="2" ACHTERNAAM="Piet" BSNNUMMER="leeg" EMAIL="leeg" GESLACHT="leeg" TELEFOONNUMMER="leeg" TUSSENVOEGSELS="leeg"
+                 VOORLETTERS="leeg" HUISNUMMER="0" HUISNUMMERTOEVOEGING="leeg" LAND="leeg" POSTCODE="leeg" STRAAT="leeg"
+                 WOONPLAATS="leeg" GEBOORTEPLAATS="leeg" GEMEENTE="leeg"/>
+    <XZA_PERSOON ID="3" ACHTERNAAM="Henk" BSNNUMMER="leeg" EMAIL="leeg" GESLACHT="leeg" TELEFOONNUMMER="leeg" TUSSENVOEGSELS="leeg"
+                 VOORLETTERS="leeg" HUISNUMMER="0" HUISNUMMERTOEVOEGING="leeg" LAND="leeg" POSTCODE="leeg" STRAAT="leeg"
+                 WOONPLAATS="leeg" GEBOORTEPLAATS="leeg" GEMEENTE="leeg"/>
+    <XZA_PERSOON ID="4" ACHTERNAAM="Maarten" BSNNUMMER="leeg" EMAIL="leeg" GESLACHT="leeg" TELEFOONNUMMER="leeg" TUSSENVOEGSELS="leeg"
+                 VOORLETTERS="leeg" HUISNUMMER="0" HUISNUMMERTOEVOEGING="leeg" LAND="leeg" POSTCODE="leeg" STRAAT="leeg"
+                 WOONPLAATS="leeg" GEBOORTEPLAATS="leeg" GEMEENTE="leeg"/>
+</dataset>

@@ -14,7 +14,7 @@ class PersoonInvoer {
 
 
     static List<Persoon> personen = new ArrayList();
-
+    PersoonDaoImpl persoonDaoImpl = new PersoonDaoImpl();
 
 
     PersoonInvoer() {
@@ -24,6 +24,8 @@ class PersoonInvoer {
     Persoon addPersoon(Persoon persoon) {
         if (persoon != null) {
             personen.add(persoon);
+            Persoon newPersoon = persoonDaoImpl.addPersoon(persoon);
+            return newPersoon;
         }
         return persoon;
     }
