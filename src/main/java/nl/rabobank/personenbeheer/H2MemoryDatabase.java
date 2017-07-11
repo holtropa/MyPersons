@@ -29,12 +29,12 @@ public class H2MemoryDatabase {
         PreparedStatement insertPreparedStatement = null;
         PreparedStatement selectPreparedStatement = null;
 
-        String CreateQuery = "CREATE TABLE XZA_PERSOON(id int primary key, name varchar(255))";
+        String CreateQuery = "CREATE TABLE XZA_PERSOON(id int primary key, achternaam varchar(255))";
 
      //   String CreateQuery = "CREATE TABLE XZA_PERSOON(ID int primary key, ACHTERNAAM varchar(255), BSNNUMMER varchar(255), EMAIL varchar(255), GESLACHT varchar(255), TELEFOON=NUMMER varchar(255), TUSSENVOEGSELS varchar(255)"
       //      + ", VOORLETTERS varchar(255), HUISNUMMER varchar(255), HUISNUMMERTOEVOEGING varchar(255), LAND varchar(255), POSTCODE varchar(255), STRAAT varchar(255)"
      //      + ", WOONPLAATS varchar(255), GEBOORTEPLAATS varchar(255), GEMEENTE varchar(255)";
-        String InsertQuery = "INSERT INTO XZA_PERSOON" + "(id, name) values" + "(?,?)";
+        String InsertQuery = "INSERT INTO XZA_PERSOON" + "(id, achternaam) values" + "(?,?)";
         String SelectQuery = "select * from XZA_PERSOON";
 
         try {
@@ -54,7 +54,7 @@ public class H2MemoryDatabase {
             ResultSet rs = selectPreparedStatement.executeQuery();
             System.out.println("H2 In-Memory Database inserted through PreparedStatement");
             while (rs.next()) {
-                System.out.println("Id " + rs.getInt("id") + " Name " + rs.getString("name"));
+                System.out.println("Id " + rs.getInt("id") + " Name " + rs.getString("achternaam"));
             }
             selectPreparedStatement.close();
 
@@ -74,15 +74,15 @@ public class H2MemoryDatabase {
         try {
             connection.setAutoCommit(false);
             stmt = connection.createStatement();
-            stmt.execute("CREATE TABLE XZA_PERSOON(id int primary key, name varchar(255))");
-            stmt.execute("INSERT INTO XZA_PERSOON(id, name) VALUES(1, 'Anju')");
-            stmt.execute("INSERT INTO XZA_PERSOON(id, name) VALUES(2, 'Sonia')");
-            stmt.execute("INSERT INTO XZA_PERSOON(id, name) VALUES(3, 'Asha')");
+            stmt.execute("CREATE TABLE XZA_PERSOON(id int primary key, achternaam varchar(255))");
+            stmt.execute("INSERT INTO XZA_PERSOON(id, achternaam) VALUES(1, 'Anju')");
+            stmt.execute("INSERT INTO XZA_PERSOON(id, achternaam) VALUES(2, 'Sonia')");
+            stmt.execute("INSERT INTO XZA_PERSOON(id, achternaam) VALUES(3, 'Asha')");
 
             ResultSet rs = stmt.executeQuery("select * from XZA_PERSOON");
             System.out.println("H2 In-Memory Database inserted through Statement");
             while (rs.next()) {
-                System.out.println("Id " + rs.getInt("id") + " Name " + rs.getString("name"));
+                System.out.println("Id " + rs.getInt("id") + " Name " + rs.getString("achternaam"));
             }
 
             stmt.execute("DROP TABLE XZA_PERSOON");
